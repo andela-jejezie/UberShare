@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		A5AACE0E1AE6660B0066ACEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACE0D1AE6660B0066ACEC /* main.m */; };
 		A5AACE111AE6660B0066ACEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACE101AE6660B0066ACEC /* AppDelegate.m */; };
-		A5AACE141AE6660B0066ACEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACE131AE6660B0066ACEC /* ViewController.m */; };
 		A5AACE171AE6660B0066ACEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AACE151AE6660B0066ACEC /* Main.storyboard */; };
 		A5AACE191AE6660B0066ACEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AACE181AE6660B0066ACEC /* Images.xcassets */; };
 		A5AACE1C1AE6660B0066ACEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AACE1A1AE6660B0066ACEC /* LaunchScreen.xib */; };
 		A5AACE281AE6660B0066ACEC /* UberShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACE271AE6660B0066ACEC /* UberShareTests.m */; };
+		A5B389981AE66A5F003614F6 /* USViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B389971AE66A5F003614F6 /* USViewController.m */; };
+		BC9019D608D3D1341092207B /* libPods-UberShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C979D28CD773902A04F15B /* libPods-UberShare.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1347AEF45164655A1FC6AF /* Pods-UberShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-UberShare/Pods-UberShare.release.xcconfig"; sourceTree = "<group>"; };
+		1D14B74D9F39ABD0D82CEFD5 /* Pods-UberShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UberShare/Pods-UberShare.debug.xcconfig"; sourceTree = "<group>"; };
+		60C979D28CD773902A04F15B /* libPods-UberShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UberShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AACE081AE6660B0066ACEC /* UberShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AACE0C1AE6660B0066ACEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5AACE0D1AE6660B0066ACEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5AACE0F1AE6660B0066ACEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5AACE101AE6660B0066ACEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5AACE121AE6660B0066ACEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5AACE131AE6660B0066ACEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A5AACE161AE6660B0066ACEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5AACE181AE6660B0066ACEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A5AACE1B1AE6660B0066ACEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A5AACE211AE6660B0066ACEC /* UberShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AACE261AE6660B0066ACEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5AACE271AE6660B0066ACEC /* UberShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberShareTests.m; sourceTree = "<group>"; };
+		A5B389961AE66A5F003614F6 /* USViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USViewController.h; sourceTree = "<group>"; };
+		A5B389971AE66A5F003614F6 /* USViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9019D608D3D1341092207B /* libPods-UberShare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +65,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EE7A8CB1469FEE8239CF4F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D14B74D9F39ABD0D82CEFD5 /* Pods-UberShare.debug.xcconfig */,
+				0B1347AEF45164655A1FC6AF /* Pods-UberShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CFEA81D7D9AA9BA367FC82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60C979D28CD773902A04F15B /* libPods-UberShare.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5AACDFF1AE6660B0066ACEC = {
 			isa = PBXGroup;
 			children = (
 				A5AACE0A1AE6660B0066ACEC /* UberShare */,
 				A5AACE241AE6660B0066ACEC /* UberShareTests */,
 				A5AACE091AE6660B0066ACEC /* Products */,
+				3EE7A8CB1469FEE8239CF4F0 /* Pods */,
+				9CFEA81D7D9AA9BA367FC82A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +107,12 @@
 			children = (
 				A5AACE0F1AE6660B0066ACEC /* AppDelegate.h */,
 				A5AACE101AE6660B0066ACEC /* AppDelegate.m */,
-				A5AACE121AE6660B0066ACEC /* ViewController.h */,
-				A5AACE131AE6660B0066ACEC /* ViewController.m */,
 				A5AACE151AE6660B0066ACEC /* Main.storyboard */,
 				A5AACE181AE6660B0066ACEC /* Images.xcassets */,
 				A5AACE1A1AE6660B0066ACEC /* LaunchScreen.xib */,
 				A5AACE0B1AE6660B0066ACEC /* Supporting Files */,
+				A5B389961AE66A5F003614F6 /* USViewController.h */,
+				A5B389971AE66A5F003614F6 /* USViewController.m */,
 			);
 			path = UberShare;
 			sourceTree = "<group>";
@@ -126,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5AACE2B1AE6660B0066ACEC /* Build configuration list for PBXNativeTarget "UberShare" */;
 			buildPhases = (
+				2229B9F41EBBF9B28FB75E35 /* Check Pods Manifest.lock */,
 				A5AACE041AE6660B0066ACEC /* Sources */,
 				A5AACE051AE6660B0066ACEC /* Frameworks */,
 				A5AACE061AE6660B0066ACEC /* Resources */,
+				0FB1C3DCC6CD33D565D2386D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +240,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FB1C3DCC6CD33D565D2386D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UberShare/Pods-UberShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2229B9F41EBBF9B28FB75E35 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5AACE041AE6660B0066ACEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AACE141AE6660B0066ACEC /* ViewController.m in Sources */,
 				A5AACE111AE6660B0066ACEC /* AppDelegate.m in Sources */,
+				A5B389981AE66A5F003614F6 /* USViewController.m in Sources */,
 				A5AACE0E1AE6660B0066ACEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +404,7 @@
 		};
 		A5AACE2C1AE6660B0066ACEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D14B74D9F39ABD0D82CEFD5 /* Pods-UberShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UberShare/Info.plist;
@@ -355,6 +415,7 @@
 		};
 		A5AACE2D1AE6660B0066ACEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1347AEF45164655A1FC6AF /* Pods-UberShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UberShare/Info.plist;
@@ -416,6 +477,7 @@
 				A5AACE2D1AE6660B0066ACEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5AACE2E1AE6660B0066ACEC /* Build configuration list for PBXNativeTarget "UberShareTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +486,7 @@
 				A5AACE301AE6660B0066ACEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
