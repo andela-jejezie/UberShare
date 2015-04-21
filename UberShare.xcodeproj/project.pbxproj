@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5AACE0E1AE6660B0066ACEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACE0D1AE6660B0066ACEC /* main.m */; };
+		A5AACE111AE6660B0066ACEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACE101AE6660B0066ACEC /* AppDelegate.m */; };
+		A5AACE141AE6660B0066ACEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACE131AE6660B0066ACEC /* ViewController.m */; };
+		A5AACE171AE6660B0066ACEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AACE151AE6660B0066ACEC /* Main.storyboard */; };
+		A5AACE191AE6660B0066ACEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AACE181AE6660B0066ACEC /* Images.xcassets */; };
+		A5AACE1C1AE6660B0066ACEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AACE1A1AE6660B0066ACEC /* LaunchScreen.xib */; };
+		A5AACE281AE6660B0066ACEC /* UberShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACE271AE6660B0066ACEC /* UberShareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5AACE221AE6660B0066ACEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5AACE001AE6660B0066ACEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5AACE071AE6660B0066ACEC;
+			remoteInfo = UberShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5AACE081AE6660B0066ACEC /* UberShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AACE0C1AE6660B0066ACEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AACE0D1AE6660B0066ACEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5AACE0F1AE6660B0066ACEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5AACE101AE6660B0066ACEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5AACE121AE6660B0066ACEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5AACE131AE6660B0066ACEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5AACE161AE6660B0066ACEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5AACE181AE6660B0066ACEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5AACE1B1AE6660B0066ACEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5AACE211AE6660B0066ACEC /* UberShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AACE261AE6660B0066ACEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AACE271AE6660B0066ACEC /* UberShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberShareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5AACE051AE6660B0066ACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AACE1E1AE6660B0066ACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5AACDFF1AE6660B0066ACEC = {
+			isa = PBXGroup;
+			children = (
+				A5AACE0A1AE6660B0066ACEC /* UberShare */,
+				A5AACE241AE6660B0066ACEC /* UberShareTests */,
+				A5AACE091AE6660B0066ACEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5AACE091AE6660B0066ACEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACE081AE6660B0066ACEC /* UberShare.app */,
+				A5AACE211AE6660B0066ACEC /* UberShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5AACE0A1AE6660B0066ACEC /* UberShare */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACE0F1AE6660B0066ACEC /* AppDelegate.h */,
+				A5AACE101AE6660B0066ACEC /* AppDelegate.m */,
+				A5AACE121AE6660B0066ACEC /* ViewController.h */,
+				A5AACE131AE6660B0066ACEC /* ViewController.m */,
+				A5AACE151AE6660B0066ACEC /* Main.storyboard */,
+				A5AACE181AE6660B0066ACEC /* Images.xcassets */,
+				A5AACE1A1AE6660B0066ACEC /* LaunchScreen.xib */,
+				A5AACE0B1AE6660B0066ACEC /* Supporting Files */,
+			);
+			path = UberShare;
+			sourceTree = "<group>";
+		};
+		A5AACE0B1AE6660B0066ACEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACE0C1AE6660B0066ACEC /* Info.plist */,
+				A5AACE0D1AE6660B0066ACEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5AACE241AE6660B0066ACEC /* UberShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACE271AE6660B0066ACEC /* UberShareTests.m */,
+				A5AACE251AE6660B0066ACEC /* Supporting Files */,
+			);
+			path = UberShareTests;
+			sourceTree = "<group>";
+		};
+		A5AACE251AE6660B0066ACEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5AACE261AE6660B0066ACEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5AACE071AE6660B0066ACEC /* UberShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5AACE2B1AE6660B0066ACEC /* Build configuration list for PBXNativeTarget "UberShare" */;
+			buildPhases = (
+				A5AACE041AE6660B0066ACEC /* Sources */,
+				A5AACE051AE6660B0066ACEC /* Frameworks */,
+				A5AACE061AE6660B0066ACEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberShare;
+			productName = UberShare;
+			productReference = A5AACE081AE6660B0066ACEC /* UberShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5AACE201AE6660B0066ACEC /* UberShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5AACE2E1AE6660B0066ACEC /* Build configuration list for PBXNativeTarget "UberShareTests" */;
+			buildPhases = (
+				A5AACE1D1AE6660B0066ACEC /* Sources */,
+				A5AACE1E1AE6660B0066ACEC /* Frameworks */,
+				A5AACE1F1AE6660B0066ACEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5AACE231AE6660B0066ACEC /* PBXTargetDependency */,
+			);
+			name = UberShareTests;
+			productName = UberShareTests;
+			productReference = A5AACE211AE6660B0066ACEC /* UberShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5AACE001AE6660B0066ACEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Johnson Ejezie";
+				TargetAttributes = {
+					A5AACE071AE6660B0066ACEC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A5AACE201AE6660B0066ACEC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A5AACE071AE6660B0066ACEC;
+					};
+				};
+			};
+			buildConfigurationList = A5AACE031AE6660B0066ACEC /* Build configuration list for PBXProject "UberShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5AACDFF1AE6660B0066ACEC;
+			productRefGroup = A5AACE091AE6660B0066ACEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5AACE071AE6660B0066ACEC /* UberShare */,
+				A5AACE201AE6660B0066ACEC /* UberShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5AACE061AE6660B0066ACEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AACE171AE6660B0066ACEC /* Main.storyboard in Resources */,
+				A5AACE1C1AE6660B0066ACEC /* LaunchScreen.xib in Resources */,
+				A5AACE191AE6660B0066ACEC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AACE1F1AE6660B0066ACEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5AACE041AE6660B0066ACEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AACE141AE6660B0066ACEC /* ViewController.m in Sources */,
+				A5AACE111AE6660B0066ACEC /* AppDelegate.m in Sources */,
+				A5AACE0E1AE6660B0066ACEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AACE1D1AE6660B0066ACEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AACE281AE6660B0066ACEC /* UberShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5AACE231AE6660B0066ACEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5AACE071AE6660B0066ACEC /* UberShare */;
+			targetProxy = A5AACE221AE6660B0066ACEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5AACE151AE6660B0066ACEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5AACE161AE6660B0066ACEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5AACE1A1AE6660B0066ACEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5AACE1B1AE6660B0066ACEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5AACE291AE6660B0066ACEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5AACE2A1AE6660B0066ACEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5AACE2C1AE6660B0066ACEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5AACE2D1AE6660B0066ACEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5AACE2F1AE6660B0066ACEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UberShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberShare.app/UberShare";
+			};
+			name = Debug;
+		};
+		A5AACE301AE6660B0066ACEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UberShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberShare.app/UberShare";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5AACE031AE6660B0066ACEC /* Build configuration list for PBXProject "UberShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AACE291AE6660B0066ACEC /* Debug */,
+				A5AACE2A1AE6660B0066ACEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5AACE2B1AE6660B0066ACEC /* Build configuration list for PBXNativeTarget "UberShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AACE2C1AE6660B0066ACEC /* Debug */,
+				A5AACE2D1AE6660B0066ACEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5AACE2E1AE6660B0066ACEC /* Build configuration list for PBXNativeTarget "UberShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AACE2F1AE6660B0066ACEC /* Debug */,
+				A5AACE301AE6660B0066ACEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5AACE001AE6660B0066ACEC /* Project object */;
+}
