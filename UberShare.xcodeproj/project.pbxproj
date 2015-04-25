@@ -14,6 +14,33 @@
 		A5AACE1C1AE6660B0066ACEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AACE1A1AE6660B0066ACEC /* LaunchScreen.xib */; };
 		A5AACE281AE6660B0066ACEC /* UberShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AACE271AE6660B0066ACEC /* UberShareTests.m */; };
 		A5B389981AE66A5F003614F6 /* USViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B389971AE66A5F003614F6 /* USViewController.m */; };
+		A5FC7D731AEBD0CC00F0C0BB /* GTLCalendarAcl.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D401AEBD0CC00F0C0BB /* GTLCalendarAcl.m */; };
+		A5FC7D741AEBD0CC00F0C0BB /* GTLCalendarAclRule.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D421AEBD0CC00F0C0BB /* GTLCalendarAclRule.m */; };
+		A5FC7D751AEBD0CC00F0C0BB /* GTLCalendarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D441AEBD0CC00F0C0BB /* GTLCalendarCalendar.m */; };
+		A5FC7D761AEBD0CC00F0C0BB /* GTLCalendarCalendarList.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D461AEBD0CC00F0C0BB /* GTLCalendarCalendarList.m */; };
+		A5FC7D771AEBD0CC00F0C0BB /* GTLCalendarCalendarListEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D481AEBD0CC00F0C0BB /* GTLCalendarCalendarListEntry.m */; };
+		A5FC7D781AEBD0CC00F0C0BB /* GTLCalendarChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D4A1AEBD0CC00F0C0BB /* GTLCalendarChannel.m */; };
+		A5FC7D791AEBD0CC00F0C0BB /* GTLCalendarColorDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D4C1AEBD0CC00F0C0BB /* GTLCalendarColorDefinition.m */; };
+		A5FC7D7A1AEBD0CC00F0C0BB /* GTLCalendarColors.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D4E1AEBD0CC00F0C0BB /* GTLCalendarColors.m */; };
+		A5FC7D7B1AEBD0CC00F0C0BB /* GTLCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D501AEBD0CC00F0C0BB /* GTLCalendarConstants.m */; };
+		A5FC7D7C1AEBD0CC00F0C0BB /* GTLCalendarError.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D521AEBD0CC00F0C0BB /* GTLCalendarError.m */; };
+		A5FC7D7D1AEBD0CC00F0C0BB /* GTLCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D541AEBD0CC00F0C0BB /* GTLCalendarEvent.m */; };
+		A5FC7D7E1AEBD0CC00F0C0BB /* GTLCalendarEventAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D561AEBD0CC00F0C0BB /* GTLCalendarEventAttachment.m */; };
+		A5FC7D7F1AEBD0CC00F0C0BB /* GTLCalendarEventAttendee.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D581AEBD0CC00F0C0BB /* GTLCalendarEventAttendee.m */; };
+		A5FC7D801AEBD0CC00F0C0BB /* GTLCalendarEventDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D5A1AEBD0CC00F0C0BB /* GTLCalendarEventDateTime.m */; };
+		A5FC7D811AEBD0CC00F0C0BB /* GTLCalendarEventReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D5C1AEBD0CC00F0C0BB /* GTLCalendarEventReminder.m */; };
+		A5FC7D821AEBD0CC00F0C0BB /* GTLCalendarEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D5E1AEBD0CC00F0C0BB /* GTLCalendarEvents.m */; };
+		A5FC7D831AEBD0CC00F0C0BB /* GTLCalendarFreeBusyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D601AEBD0CC00F0C0BB /* GTLCalendarFreeBusyCalendar.m */; };
+		A5FC7D841AEBD0CC00F0C0BB /* GTLCalendarFreeBusyGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D621AEBD0CC00F0C0BB /* GTLCalendarFreeBusyGroup.m */; };
+		A5FC7D851AEBD0CC00F0C0BB /* GTLCalendarFreeBusyRequestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D641AEBD0CC00F0C0BB /* GTLCalendarFreeBusyRequestItem.m */; };
+		A5FC7D861AEBD0CC00F0C0BB /* GTLCalendarFreeBusyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D661AEBD0CC00F0C0BB /* GTLCalendarFreeBusyResponse.m */; };
+		A5FC7D871AEBD0CC00F0C0BB /* GTLCalendarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D681AEBD0CC00F0C0BB /* GTLCalendarNotification.m */; };
+		A5FC7D881AEBD0CC00F0C0BB /* GTLCalendarSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D6A1AEBD0CC00F0C0BB /* GTLCalendarSetting.m */; };
+		A5FC7D891AEBD0CC00F0C0BB /* GTLCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D6C1AEBD0CC00F0C0BB /* GTLCalendarSettings.m */; };
+		A5FC7D8A1AEBD0CC00F0C0BB /* GTLCalendarTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D6E1AEBD0CC00F0C0BB /* GTLCalendarTimePeriod.m */; };
+		A5FC7D8B1AEBD0CC00F0C0BB /* GTLQueryCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D701AEBD0CC00F0C0BB /* GTLQueryCalendar.m */; };
+		A5FC7D8C1AEBD0CC00F0C0BB /* GTLServiceCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D721AEBD0CC00F0C0BB /* GTLServiceCalendar.m */; };
+		A5FC7D8F1AEBE68B00F0C0BB /* USEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D8E1AEBE68B00F0C0BB /* USEventTableViewController.m */; };
 		BC9019D608D3D1341092207B /* libPods-UberShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C979D28CD773902A04F15B /* libPods-UberShare.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +71,61 @@
 		A5AACE271AE6660B0066ACEC /* UberShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberShareTests.m; sourceTree = "<group>"; };
 		A5B389961AE66A5F003614F6 /* USViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USViewController.h; sourceTree = "<group>"; };
 		A5B389971AE66A5F003614F6 /* USViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USViewController.m; sourceTree = "<group>"; };
+		A5FC7D3E1AEBD0CC00F0C0BB /* GTLCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendar.h; sourceTree = "<group>"; };
+		A5FC7D3F1AEBD0CC00F0C0BB /* GTLCalendarAcl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarAcl.h; sourceTree = "<group>"; };
+		A5FC7D401AEBD0CC00F0C0BB /* GTLCalendarAcl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarAcl.m; sourceTree = "<group>"; };
+		A5FC7D411AEBD0CC00F0C0BB /* GTLCalendarAclRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarAclRule.h; sourceTree = "<group>"; };
+		A5FC7D421AEBD0CC00F0C0BB /* GTLCalendarAclRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarAclRule.m; sourceTree = "<group>"; };
+		A5FC7D431AEBD0CC00F0C0BB /* GTLCalendarCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarCalendar.h; sourceTree = "<group>"; };
+		A5FC7D441AEBD0CC00F0C0BB /* GTLCalendarCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarCalendar.m; sourceTree = "<group>"; };
+		A5FC7D451AEBD0CC00F0C0BB /* GTLCalendarCalendarList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarCalendarList.h; sourceTree = "<group>"; };
+		A5FC7D461AEBD0CC00F0C0BB /* GTLCalendarCalendarList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarCalendarList.m; sourceTree = "<group>"; };
+		A5FC7D471AEBD0CC00F0C0BB /* GTLCalendarCalendarListEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarCalendarListEntry.h; sourceTree = "<group>"; };
+		A5FC7D481AEBD0CC00F0C0BB /* GTLCalendarCalendarListEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarCalendarListEntry.m; sourceTree = "<group>"; };
+		A5FC7D491AEBD0CC00F0C0BB /* GTLCalendarChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarChannel.h; sourceTree = "<group>"; };
+		A5FC7D4A1AEBD0CC00F0C0BB /* GTLCalendarChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarChannel.m; sourceTree = "<group>"; };
+		A5FC7D4B1AEBD0CC00F0C0BB /* GTLCalendarColorDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarColorDefinition.h; sourceTree = "<group>"; };
+		A5FC7D4C1AEBD0CC00F0C0BB /* GTLCalendarColorDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarColorDefinition.m; sourceTree = "<group>"; };
+		A5FC7D4D1AEBD0CC00F0C0BB /* GTLCalendarColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarColors.h; sourceTree = "<group>"; };
+		A5FC7D4E1AEBD0CC00F0C0BB /* GTLCalendarColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarColors.m; sourceTree = "<group>"; };
+		A5FC7D4F1AEBD0CC00F0C0BB /* GTLCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarConstants.h; sourceTree = "<group>"; };
+		A5FC7D501AEBD0CC00F0C0BB /* GTLCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarConstants.m; sourceTree = "<group>"; };
+		A5FC7D511AEBD0CC00F0C0BB /* GTLCalendarError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarError.h; sourceTree = "<group>"; };
+		A5FC7D521AEBD0CC00F0C0BB /* GTLCalendarError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarError.m; sourceTree = "<group>"; };
+		A5FC7D531AEBD0CC00F0C0BB /* GTLCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarEvent.h; sourceTree = "<group>"; };
+		A5FC7D541AEBD0CC00F0C0BB /* GTLCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarEvent.m; sourceTree = "<group>"; };
+		A5FC7D551AEBD0CC00F0C0BB /* GTLCalendarEventAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarEventAttachment.h; sourceTree = "<group>"; };
+		A5FC7D561AEBD0CC00F0C0BB /* GTLCalendarEventAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarEventAttachment.m; sourceTree = "<group>"; };
+		A5FC7D571AEBD0CC00F0C0BB /* GTLCalendarEventAttendee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarEventAttendee.h; sourceTree = "<group>"; };
+		A5FC7D581AEBD0CC00F0C0BB /* GTLCalendarEventAttendee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarEventAttendee.m; sourceTree = "<group>"; };
+		A5FC7D591AEBD0CC00F0C0BB /* GTLCalendarEventDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarEventDateTime.h; sourceTree = "<group>"; };
+		A5FC7D5A1AEBD0CC00F0C0BB /* GTLCalendarEventDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarEventDateTime.m; sourceTree = "<group>"; };
+		A5FC7D5B1AEBD0CC00F0C0BB /* GTLCalendarEventReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarEventReminder.h; sourceTree = "<group>"; };
+		A5FC7D5C1AEBD0CC00F0C0BB /* GTLCalendarEventReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarEventReminder.m; sourceTree = "<group>"; };
+		A5FC7D5D1AEBD0CC00F0C0BB /* GTLCalendarEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarEvents.h; sourceTree = "<group>"; };
+		A5FC7D5E1AEBD0CC00F0C0BB /* GTLCalendarEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarEvents.m; sourceTree = "<group>"; };
+		A5FC7D5F1AEBD0CC00F0C0BB /* GTLCalendarFreeBusyCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarFreeBusyCalendar.h; sourceTree = "<group>"; };
+		A5FC7D601AEBD0CC00F0C0BB /* GTLCalendarFreeBusyCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarFreeBusyCalendar.m; sourceTree = "<group>"; };
+		A5FC7D611AEBD0CC00F0C0BB /* GTLCalendarFreeBusyGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarFreeBusyGroup.h; sourceTree = "<group>"; };
+		A5FC7D621AEBD0CC00F0C0BB /* GTLCalendarFreeBusyGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarFreeBusyGroup.m; sourceTree = "<group>"; };
+		A5FC7D631AEBD0CC00F0C0BB /* GTLCalendarFreeBusyRequestItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarFreeBusyRequestItem.h; sourceTree = "<group>"; };
+		A5FC7D641AEBD0CC00F0C0BB /* GTLCalendarFreeBusyRequestItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarFreeBusyRequestItem.m; sourceTree = "<group>"; };
+		A5FC7D651AEBD0CC00F0C0BB /* GTLCalendarFreeBusyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarFreeBusyResponse.h; sourceTree = "<group>"; };
+		A5FC7D661AEBD0CC00F0C0BB /* GTLCalendarFreeBusyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarFreeBusyResponse.m; sourceTree = "<group>"; };
+		A5FC7D671AEBD0CC00F0C0BB /* GTLCalendarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarNotification.h; sourceTree = "<group>"; };
+		A5FC7D681AEBD0CC00F0C0BB /* GTLCalendarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarNotification.m; sourceTree = "<group>"; };
+		A5FC7D691AEBD0CC00F0C0BB /* GTLCalendarSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarSetting.h; sourceTree = "<group>"; };
+		A5FC7D6A1AEBD0CC00F0C0BB /* GTLCalendarSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarSetting.m; sourceTree = "<group>"; };
+		A5FC7D6B1AEBD0CC00F0C0BB /* GTLCalendarSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarSettings.h; sourceTree = "<group>"; };
+		A5FC7D6C1AEBD0CC00F0C0BB /* GTLCalendarSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarSettings.m; sourceTree = "<group>"; };
+		A5FC7D6D1AEBD0CC00F0C0BB /* GTLCalendarTimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarTimePeriod.h; sourceTree = "<group>"; };
+		A5FC7D6E1AEBD0CC00F0C0BB /* GTLCalendarTimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarTimePeriod.m; sourceTree = "<group>"; };
+		A5FC7D6F1AEBD0CC00F0C0BB /* GTLQueryCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryCalendar.h; sourceTree = "<group>"; };
+		A5FC7D701AEBD0CC00F0C0BB /* GTLQueryCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryCalendar.m; sourceTree = "<group>"; };
+		A5FC7D711AEBD0CC00F0C0BB /* GTLServiceCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceCalendar.h; sourceTree = "<group>"; };
+		A5FC7D721AEBD0CC00F0C0BB /* GTLServiceCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceCalendar.m; sourceTree = "<group>"; };
+		A5FC7D8D1AEBE68B00F0C0BB /* USEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USEventTableViewController.h; sourceTree = "<group>"; };
+		A5FC7D8E1AEBE68B00F0C0BB /* USEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USEventTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +187,7 @@
 		A5AACE0A1AE6660B0066ACEC /* UberShare */ = {
 			isa = PBXGroup;
 			children = (
+				A5FC7D3D1AEBD0A500F0C0BB /* Calendar */,
 				A5AACE0F1AE6660B0066ACEC /* AppDelegate.h */,
 				A5AACE101AE6660B0066ACEC /* AppDelegate.m */,
 				A5AACE151AE6660B0066ACEC /* Main.storyboard */,
@@ -113,6 +196,8 @@
 				A5AACE0B1AE6660B0066ACEC /* Supporting Files */,
 				A5B389961AE66A5F003614F6 /* USViewController.h */,
 				A5B389971AE66A5F003614F6 /* USViewController.m */,
+				A5FC7D8D1AEBE68B00F0C0BB /* USEventTableViewController.h */,
+				A5FC7D8E1AEBE68B00F0C0BB /* USEventTableViewController.m */,
 			);
 			path = UberShare;
 			sourceTree = "<group>";
@@ -141,6 +226,66 @@
 				A5AACE261AE6660B0066ACEC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5FC7D3D1AEBD0A500F0C0BB /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC7D3E1AEBD0CC00F0C0BB /* GTLCalendar.h */,
+				A5FC7D3F1AEBD0CC00F0C0BB /* GTLCalendarAcl.h */,
+				A5FC7D401AEBD0CC00F0C0BB /* GTLCalendarAcl.m */,
+				A5FC7D411AEBD0CC00F0C0BB /* GTLCalendarAclRule.h */,
+				A5FC7D421AEBD0CC00F0C0BB /* GTLCalendarAclRule.m */,
+				A5FC7D431AEBD0CC00F0C0BB /* GTLCalendarCalendar.h */,
+				A5FC7D441AEBD0CC00F0C0BB /* GTLCalendarCalendar.m */,
+				A5FC7D451AEBD0CC00F0C0BB /* GTLCalendarCalendarList.h */,
+				A5FC7D461AEBD0CC00F0C0BB /* GTLCalendarCalendarList.m */,
+				A5FC7D471AEBD0CC00F0C0BB /* GTLCalendarCalendarListEntry.h */,
+				A5FC7D481AEBD0CC00F0C0BB /* GTLCalendarCalendarListEntry.m */,
+				A5FC7D491AEBD0CC00F0C0BB /* GTLCalendarChannel.h */,
+				A5FC7D4A1AEBD0CC00F0C0BB /* GTLCalendarChannel.m */,
+				A5FC7D4B1AEBD0CC00F0C0BB /* GTLCalendarColorDefinition.h */,
+				A5FC7D4C1AEBD0CC00F0C0BB /* GTLCalendarColorDefinition.m */,
+				A5FC7D4D1AEBD0CC00F0C0BB /* GTLCalendarColors.h */,
+				A5FC7D4E1AEBD0CC00F0C0BB /* GTLCalendarColors.m */,
+				A5FC7D4F1AEBD0CC00F0C0BB /* GTLCalendarConstants.h */,
+				A5FC7D501AEBD0CC00F0C0BB /* GTLCalendarConstants.m */,
+				A5FC7D511AEBD0CC00F0C0BB /* GTLCalendarError.h */,
+				A5FC7D521AEBD0CC00F0C0BB /* GTLCalendarError.m */,
+				A5FC7D531AEBD0CC00F0C0BB /* GTLCalendarEvent.h */,
+				A5FC7D541AEBD0CC00F0C0BB /* GTLCalendarEvent.m */,
+				A5FC7D551AEBD0CC00F0C0BB /* GTLCalendarEventAttachment.h */,
+				A5FC7D561AEBD0CC00F0C0BB /* GTLCalendarEventAttachment.m */,
+				A5FC7D571AEBD0CC00F0C0BB /* GTLCalendarEventAttendee.h */,
+				A5FC7D581AEBD0CC00F0C0BB /* GTLCalendarEventAttendee.m */,
+				A5FC7D591AEBD0CC00F0C0BB /* GTLCalendarEventDateTime.h */,
+				A5FC7D5A1AEBD0CC00F0C0BB /* GTLCalendarEventDateTime.m */,
+				A5FC7D5B1AEBD0CC00F0C0BB /* GTLCalendarEventReminder.h */,
+				A5FC7D5C1AEBD0CC00F0C0BB /* GTLCalendarEventReminder.m */,
+				A5FC7D5D1AEBD0CC00F0C0BB /* GTLCalendarEvents.h */,
+				A5FC7D5E1AEBD0CC00F0C0BB /* GTLCalendarEvents.m */,
+				A5FC7D5F1AEBD0CC00F0C0BB /* GTLCalendarFreeBusyCalendar.h */,
+				A5FC7D601AEBD0CC00F0C0BB /* GTLCalendarFreeBusyCalendar.m */,
+				A5FC7D611AEBD0CC00F0C0BB /* GTLCalendarFreeBusyGroup.h */,
+				A5FC7D621AEBD0CC00F0C0BB /* GTLCalendarFreeBusyGroup.m */,
+				A5FC7D631AEBD0CC00F0C0BB /* GTLCalendarFreeBusyRequestItem.h */,
+				A5FC7D641AEBD0CC00F0C0BB /* GTLCalendarFreeBusyRequestItem.m */,
+				A5FC7D651AEBD0CC00F0C0BB /* GTLCalendarFreeBusyResponse.h */,
+				A5FC7D661AEBD0CC00F0C0BB /* GTLCalendarFreeBusyResponse.m */,
+				A5FC7D671AEBD0CC00F0C0BB /* GTLCalendarNotification.h */,
+				A5FC7D681AEBD0CC00F0C0BB /* GTLCalendarNotification.m */,
+				A5FC7D691AEBD0CC00F0C0BB /* GTLCalendarSetting.h */,
+				A5FC7D6A1AEBD0CC00F0C0BB /* GTLCalendarSetting.m */,
+				A5FC7D6B1AEBD0CC00F0C0BB /* GTLCalendarSettings.h */,
+				A5FC7D6C1AEBD0CC00F0C0BB /* GTLCalendarSettings.m */,
+				A5FC7D6D1AEBD0CC00F0C0BB /* GTLCalendarTimePeriod.h */,
+				A5FC7D6E1AEBD0CC00F0C0BB /* GTLCalendarTimePeriod.m */,
+				A5FC7D6F1AEBD0CC00F0C0BB /* GTLQueryCalendar.h */,
+				A5FC7D701AEBD0CC00F0C0BB /* GTLQueryCalendar.m */,
+				A5FC7D711AEBD0CC00F0C0BB /* GTLServiceCalendar.h */,
+				A5FC7D721AEBD0CC00F0C0BB /* GTLServiceCalendar.m */,
+			);
+			name = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,9 +423,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FC7D731AEBD0CC00F0C0BB /* GTLCalendarAcl.m in Sources */,
+				A5FC7D741AEBD0CC00F0C0BB /* GTLCalendarAclRule.m in Sources */,
+				A5FC7D811AEBD0CC00F0C0BB /* GTLCalendarEventReminder.m in Sources */,
+				A5FC7D861AEBD0CC00F0C0BB /* GTLCalendarFreeBusyResponse.m in Sources */,
+				A5FC7D8F1AEBE68B00F0C0BB /* USEventTableViewController.m in Sources */,
+				A5FC7D871AEBD0CC00F0C0BB /* GTLCalendarNotification.m in Sources */,
+				A5FC7D7F1AEBD0CC00F0C0BB /* GTLCalendarEventAttendee.m in Sources */,
+				A5FC7D801AEBD0CC00F0C0BB /* GTLCalendarEventDateTime.m in Sources */,
+				A5FC7D791AEBD0CC00F0C0BB /* GTLCalendarColorDefinition.m in Sources */,
+				A5FC7D8B1AEBD0CC00F0C0BB /* GTLQueryCalendar.m in Sources */,
+				A5FC7D7B1AEBD0CC00F0C0BB /* GTLCalendarConstants.m in Sources */,
+				A5FC7D771AEBD0CC00F0C0BB /* GTLCalendarCalendarListEntry.m in Sources */,
+				A5FC7D851AEBD0CC00F0C0BB /* GTLCalendarFreeBusyRequestItem.m in Sources */,
 				A5AACE111AE6660B0066ACEC /* AppDelegate.m in Sources */,
+				A5FC7D7D1AEBD0CC00F0C0BB /* GTLCalendarEvent.m in Sources */,
+				A5FC7D761AEBD0CC00F0C0BB /* GTLCalendarCalendarList.m in Sources */,
+				A5FC7D881AEBD0CC00F0C0BB /* GTLCalendarSetting.m in Sources */,
+				A5FC7D841AEBD0CC00F0C0BB /* GTLCalendarFreeBusyGroup.m in Sources */,
+				A5FC7D891AEBD0CC00F0C0BB /* GTLCalendarSettings.m in Sources */,
+				A5FC7D751AEBD0CC00F0C0BB /* GTLCalendarCalendar.m in Sources */,
+				A5FC7D831AEBD0CC00F0C0BB /* GTLCalendarFreeBusyCalendar.m in Sources */,
+				A5FC7D8C1AEBD0CC00F0C0BB /* GTLServiceCalendar.m in Sources */,
+				A5FC7D7A1AEBD0CC00F0C0BB /* GTLCalendarColors.m in Sources */,
 				A5B389981AE66A5F003614F6 /* USViewController.m in Sources */,
+				A5FC7D781AEBD0CC00F0C0BB /* GTLCalendarChannel.m in Sources */,
+				A5FC7D7E1AEBD0CC00F0C0BB /* GTLCalendarEventAttachment.m in Sources */,
+				A5FC7D7C1AEBD0CC00F0C0BB /* GTLCalendarError.m in Sources */,
 				A5AACE0E1AE6660B0066ACEC /* main.m in Sources */,
+				A5FC7D8A1AEBD0CC00F0C0BB /* GTLCalendarTimePeriod.m in Sources */,
+				A5FC7D821AEBD0CC00F0C0BB /* GTLCalendarEvents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
