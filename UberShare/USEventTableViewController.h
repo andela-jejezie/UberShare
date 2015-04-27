@@ -13,4 +13,6 @@
 
 @property(nonatomic, strong)NSMutableArray* events;
 
+@property(nonatomic, strong)GTLCalendarEvent* event;
+
 @end

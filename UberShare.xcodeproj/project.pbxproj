@@ -41,6 +41,7 @@
 		A5FC7D8B1AEBD0CC00F0C0BB /* GTLQueryCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D701AEBD0CC00F0C0BB /* GTLQueryCalendar.m */; };
 		A5FC7D8C1AEBD0CC00F0C0BB /* GTLServiceCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D721AEBD0CC00F0C0BB /* GTLServiceCalendar.m */; };
 		A5FC7D8F1AEBE68B00F0C0BB /* USEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D8E1AEBE68B00F0C0BB /* USEventTableViewController.m */; };
+		A5FC7D921AEE740700F0C0BB /* USEventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC7D911AEE740700F0C0BB /* USEventDetailViewController.m */; };
 		BC9019D608D3D1341092207B /* libPods-UberShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C979D28CD773902A04F15B /* libPods-UberShare.a */; };
 /* End PBXBuildFile section */
 
@@ -126,6 +127,8 @@
 		A5FC7D721AEBD0CC00F0C0BB /* GTLServiceCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceCalendar.m; sourceTree = "<group>"; };
 		A5FC7D8D1AEBE68B00F0C0BB /* USEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USEventTableViewController.h; sourceTree = "<group>"; };
 		A5FC7D8E1AEBE68B00F0C0BB /* USEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USEventTableViewController.m; sourceTree = "<group>"; };
+		A5FC7D901AEE740700F0C0BB /* USEventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USEventDetailViewController.h; sourceTree = "<group>"; };
+		A5FC7D911AEE740700F0C0BB /* USEventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USEventDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 				A5B389971AE66A5F003614F6 /* USViewController.m */,
 				A5FC7D8D1AEBE68B00F0C0BB /* USEventTableViewController.h */,
 				A5FC7D8E1AEBE68B00F0C0BB /* USEventTableViewController.m */,
+				A5FC7D901AEE740700F0C0BB /* USEventDetailViewController.h */,
+				A5FC7D911AEE740700F0C0BB /* USEventDetailViewController.m */,
 			);
 			path = UberShare;
 			sourceTree = "<group>";
@@ -439,6 +444,7 @@
 				A5AACE111AE6660B0066ACEC /* AppDelegate.m in Sources */,
 				A5FC7D7D1AEBD0CC00F0C0BB /* GTLCalendarEvent.m in Sources */,
 				A5FC7D761AEBD0CC00F0C0BB /* GTLCalendarCalendarList.m in Sources */,
+				A5FC7D921AEE740700F0C0BB /* USEventDetailViewController.m in Sources */,
 				A5FC7D881AEBD0CC00F0C0BB /* GTLCalendarSetting.m in Sources */,
 				A5FC7D841AEBD0CC00F0C0BB /* GTLCalendarFreeBusyGroup.m in Sources */,
 				A5FC7D891AEBD0CC00F0C0BB /* GTLCalendarSettings.m in Sources */,

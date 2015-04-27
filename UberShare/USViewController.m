@@ -109,8 +109,8 @@ static NSString *const kClientSecret = @"vkK-pb0H3OG5vc9CdpnOi6if";
                                  for (GTLCalendarEvent *event in events) {
                                      NSLog(@"event itself %@", event);
                                      eventObj[@"summary"] = event.summary;
-                                     eventObj[@"startTime"] = event.start.dateTime;
-                                     eventObj[@"endTime"] = event.end.dateTime;
+                                     eventObj[@"startTime"] = event.start;
+                                     eventObj[@"endTime"] = event.end;
                                      eventObj[@"date"] = event.created;
                                      if (event.location) {
                                          eventObj[@"location"] = event.location;

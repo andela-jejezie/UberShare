@@ -7,6 +7,7 @@
 //
 
 #import "USEventTableViewController.h"
+#import "USEventDetailViewController.h"
 
 @interface USEventTableViewController ()
 
@@ -53,6 +54,17 @@
     cell.textLabel.text = list.summary;
     
     return cell;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    self.event = self.events[indexPath.row];
+    [self performSegueWithIdentifier:@"Detail" sender:nil];
+
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    USEventDetailViewController* controller = (USEventDetailViewController*)segue.destinationViewController;
+    controller.event = self.event;
+    
 }
 
 
