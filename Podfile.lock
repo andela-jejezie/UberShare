@@ -1,0 +1,13 @@
+PODS:
+  - Firebase (2.2.1)
+  - googleplus-ios-sdk (1.7.1)
+
+DEPENDENCIES:
+  - Firebase (>= 2.2.0)
+  - googleplus-ios-sdk
+
+SPEC CHECKSUMS:
+  Firebase: a3d54b42f090ca275b22dcdf103b8ab6ac6f353c
+  googleplus-ios-sdk: 065d9135061a5f84c07656a68ced48336408fe35
+
+COCOAPODS: 0.35.0
